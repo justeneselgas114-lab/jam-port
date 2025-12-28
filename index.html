@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justene Selgas | Engineering Digital Impact</title>
+    <meta name="description" content="Problem-solving web developer focused on business growth, performance, and AI-assisted development." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --bg-warm: #fcfcfd;
+        --accent: #4f46e5;
+        --curve: cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      
+      * { cursor: default; }
+      a, button, input, textarea { cursor: pointer; }
+
+      body {
+        font-family: 'Inter', -apple-system, sans-serif;
+        background-color: var(--bg-warm);
+        color: #111827;
+        -webkit-font-smoothing: antialiased;
+        letter-spacing: -0.01em;
+      }
+
+      /* Global Scroll Margin for Section Anchors */
+      section[id] {
+        scroll-margin-top: 100px;
+      }
+
+      ::selection {
+        background: #111827;
+        color: white;
+      }
+
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: var(--bg-warm); }
+      ::-webkit-scrollbar-thumb {
+        background: #e5e7eb;
+        border-radius: 10px;
+        border: 2px solid var(--bg-warm);
+      }
+      ::-webkit-scrollbar-thumb:hover { background: #d1d5db; }
+
+      .glass-nav {
+        background: rgba(252, 252, 253, 0.8);
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+      }
+
+      .transition-premium {
+        transition: all 500ms var(--curve);
+      }
+
+      .reveal-up {
+        opacity: 0;
+        transform: translateY(24px);
+        animation: revealUp 1s var(--curve) forwards;
+      }
+
+      @keyframes revealUp {
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .hover-float:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.12);
+      }
+
+      .text-balance { text-wrap: balance; }
+      
+      @keyframes dot-scale {
+        from { transform: translateX(-50%) scale(0); opacity: 0; }
+        to { transform: translateX(-50%) scale(1); opacity: 1; }
+      }
+      .active-dot {
+        animation: dot-scale 0.4s var(--curve) forwards;
+      }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react": "https://esm.sh/react@^19.2.3"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
