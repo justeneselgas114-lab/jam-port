@@ -42,7 +42,7 @@ const About: React.FC = () => {
                 <div className="aspect-square bg-white p-8 rounded-[48px] shadow-[0_32px_64px_-16px_rgba(0,0,0,0.08)] border border-slate-100 relative z-10 overflow-hidden group">
                   <div className="absolute inset-0 bg-indigo-50/20 opacity-0 group-hover:opacity-100 transition-premium z-20 pointer-events-none" />
                   <img 
-                      src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=1000" 
+                      src="https://i.postimg.cc/B6jjtzVw/Untitled-design-(6).png" 
                       alt="Intentional Design" 
                       className="w-full h-full object-cover rounded-[32px] transition-all duration-1000 group-hover:scale-105"
                   />
