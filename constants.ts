@@ -13,7 +13,7 @@ export const PROFILE_IMAGE = "https://i.postimg.cc/tRZSP5gh/wmremove_transformed
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'BigBoss Buffet – All-You-Can-Eat Restaurant Experience',
+    title: 'BigBoss Buffet | Eat All You Can Restaurant',
     description: 'BigBoss Buffet’s website is a clean, modern web presence for the popular all-you-can-eat buffet restaurant located in Panabo City, Davao Region, Philippines. It showcases the brand’s unlimited dining experience, highlighting its abundant food offerings, value-for-money pricing, and vibrant buffet atmosphere. The site effectively introduces users to the restaurant’s concept, menu variety, and welcoming environment, encouraging visitors to explore and dine at the buffet.',
     stack: ['Supabase', 'Tailwind', 'PostgreSQL'],
     purpose: 'The purpose of this website is to provide clear information about BigBoss Buffet, show what the restaurant offers, and help customers understand the buffet experience before visiting. It serves as an online presence where people can learn about the food, pricing concept, and location of the restaurant.',
@@ -23,7 +23,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '2',
-    title: 'SIRON FORGE | Premium Elite Performance & Transformation Center',
+    title: 'IRON FORGE | Premium Elite Performance & Transformation Center',
     description: 'IRON FORGE is a cutting-edge, high-performance fitness sanctuary designed for those who demand excellence from their bodies and minds. The website serves as a digital gateway to a world-class training environment, featuring state-of-the-art facilities, science-backed recovery zones, and elite coaching. Integrating advanced AI assistance through ForgeAI, the platform provides instant, personalized guidance on memberships, training tips, and motivation, ensuring every visitor is equipped to start their transformation journey before they even step foot in the gym.',
     stack: ['Next.js', 'Laravel', 'Stripe', 'Framer Motion'],
     purpose: 'The primary purpose of the IRON FORGE digital platform is to serve as a high-velocity conversion engine that seamlessly transitions prospective athletes into dedicated members through a blend of elite branding and modern technological innovation. By integrating the Gemini-powered ForgeAI assistant, the website provides 24/7 personalized engagement, reducing friction in the sales funnel by answering complex training and membership queries instantaneously. The platform is strategically designed to establish market authority, educating visitors on specialized pillars like Powerlifting and HIIT while leveraging deep social proof and a mobile-first, high-performance interface to build immediate trust. Ultimately, the site exists to project the gym’s premium identity and provide a frictionless gateway for individuals to begin their physical and mental transformation.',
