@@ -28,8 +28,8 @@ export const PROJECTS: Project[] = [
     stack: ['Next.js', 'Laravel', 'Stripe', 'Framer Motion'],
     purpose: 'The primary purpose of the IRON FORGE digital platform is to serve as a high-velocity conversion engine that seamlessly transitions prospective athletes into dedicated members through a blend of elite branding and modern technological innovation. By integrating the Gemini-powered ForgeAI assistant, the website provides 24/7 personalized engagement, reducing friction in the sales funnel by answering complex training and membership queries instantaneously. The platform is strategically designed to establish market authority, educating visitors on specialized pillars like Powerlifting and HIIT while leveraging deep social proof and a mobile-first, high-performance interface to build immediate trust. Ultimately, the site exists to project the gym’s premium identity and provide a frictionless gateway for individuals to begin their physical and mental transformation.',
     githubUrl: 'https://github.com/justeneselgas114-lab',
-    liveUrl: '#',
-    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800'
+    liveUrl: 'https://iron-forge-gym-wzry.vercel.app/#home',
+    imageUrl: 'https://i.postimg.cc/wv80c3y9/Screenshot-2025-12-30-000417.png'
   },
   {
     id: '3',
