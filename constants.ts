@@ -33,13 +33,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '3',
-    title: 'Real Estate Inquiry Management',
-    description: 'A premium listing and investor inquiry platform.',
+    title: 'NAPMI | The North American Pilates & Movement Institute',
+    description: 'This application is engineered as a high-fidelity digital gateway for the North American Pilates & Movement Institute, prioritizing institutional integrity and seamless administrative workflows. Its core features include a secure, serverless admissions portal that transmits applicant data directly to a private Google Sheets database for easy tracking, a dedicated WhatsApp institutional link for real-time professional inquiries, and a centralized academic resource hub where students can download curriculum PDFs. Visually, the site leverages an interactive SVG-based world map to showcase the institute global network and a dedicated module for accreditation standards, ensuring immediate academic authority and a professional first impression for prospective movement specialists.',
     stack: ['Node.js', 'Gemini AI', 'GoHighLevel', 'n8n'],
-    purpose: 'Built to showcase high-value properties with AI-powered search filters and a dedicated inquiry system for serious investors.',
+    purpose: 'The purpose of the North American Pilates & Movement Institute (NAPMI) platform is to serve as a high-fidelity digital campus and professional gateway for movement specialists seeking elite, internationally recognized certification. It was built to address the need for a rigorous, scientifically-backed educational pathway that bridges the historical lineage of Classical Pilates with the clinical precision of modern biomechanics. By centralizing institutional standards, a comprehensive 700-hour curriculum, and a streamlined admissions pipeline into a single, mobile-optimized interface, the website facilitates the transformation of practitioners—such as physiotherapists, sports scientists, and elite dancers—into accredited movement experts. The platform’s infrastructure, featuring secure data integration and direct institutional communication tools, ensures that the institute’s commitment to pedagogical safety and academic excellence is accessible to a global audience, ultimately elevating the professional standards of the movement industry worldwide.',
     githubUrl: 'https://github.com/justeneselgas114-lab',
-    liveUrl: '#',
-    imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800'
+    liveUrl: 'https://napmi-website-mtpdry2ue-justenes-projects.vercel.app/',
+    imageUrl: 'https://i.postimg.cc/tRNYM25x/Screenshot-2025-12-31-100545.png'
   },
   {
     id: '4',
